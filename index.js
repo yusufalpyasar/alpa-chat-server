@@ -45,7 +45,7 @@ const RATE_LIMIT_MAX_MSGS = 20;      // max 20 messages in 5s
 
 // Limits
 const MAX_USERNAME_LENGTH = 32;
-const MAX_ROOM_ID_LENGTH = 32;
+const MAX_ROOM_ID_LENGTH = 64;     // supports SHA-256 derived room IDs
 const MAX_MESSAGE_LENGTH = 4096;     // 4 KB plaintext; will grow with E2EE overhead
 
 // ─── Server ──────────────────────────────────────────────────────────────────
